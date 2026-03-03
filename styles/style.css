@@ -2,16 +2,19 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 93.16px 52.52px 95.19px 50px;
+  padding: 90px 49.52px 96px 49px;
 }
+
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 32.6px;
 }
 
 .header__links-list-item {
   list-style: circle;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header__links-list-item_no-bullit {
@@ -21,6 +24,8 @@
 .header__link {
   border-bottom: 1px solid #000000;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header__link_active {
@@ -32,8 +37,8 @@
 }
 
 .header__logo-image {
-  min-width: 129.11px;
-  min-height: 104.65px;
+  width: 148px;
+  height: 105px;
 }
 
 .adress {
@@ -44,6 +49,7 @@
   max-width: 240px;
   font-size: 18px;
   line-height: 24px;
+  font-style: normal;
 }
 
 .adress a {
@@ -59,7 +65,7 @@
   background-image: url(../images/cover.jpg);
   min-height: 757px;
   background-size: cover;
-  padding: 165px 50px 50px 50px;
+  padding: 162px 50px 50px 50px;
 }
 
 .overlay {
@@ -75,6 +81,9 @@
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   text-transform :uppercase;
   font-family: 'Raleway';
   font-weight: 700;
@@ -82,6 +91,10 @@
   line-height: 115px;
   letter-spacing: 0.3em;
   color: #FFFFFF;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
 }
 
 .aligned-text {
@@ -98,6 +111,7 @@
   text-align: center;
 }
 
+
 .aligned-text_right {
   text-align: right;
 }
@@ -105,8 +119,33 @@
 .cover__description {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 3;
 }
 
+.cover__description-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  word-spacing: 18.5px;
+  align-self: center;
+}
+
+.bet-button {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  width: 256px;
+  height: 51px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
 
 .lots {
   padding: 0;
