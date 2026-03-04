@@ -5,16 +5,15 @@
   padding: 90px 49.52px 96px 49px;
 }
 
-
 .header__links-list {
   display: flex;
   gap: 32.6px;
 }
 
 .header__links-list-item {
-  list-style: circle;
   font-size: 18px;
   line-height: 21px;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -23,9 +22,9 @@
 
 .header__link {
   border-bottom: 1px solid #000000;
-  text-decoration: none;
   font-size: 18px;
   line-height: 21px;
+  text-decoration: none;
 }
 
 .header__link_active {
@@ -48,49 +47,48 @@
   align-items: flex-start;
   max-width: 240px;
   font-size: 18px;
-  line-height: 24px;
   font-style: normal;
+  line-height: 24px;
 }
 
 .adress a {
-  text-decoration: none;
   border-bottom: 1px solid #000000;
+  text-decoration: none;
 }
 
 .cover {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position:relative;
-  background-image: url(../images/cover.jpg);
   min-height: 757px;
-  background-size: cover;
   padding: 162px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
 }
 
 .overlay {
   position: absolute;
-  /*тут поравить с опасити*/
-  background: #000000; 
-  opacity: 0.6;
-  z-index: 1;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 1;
+  opacity: 0.6;
+  background: #000000;
 }
 
 .cover__title {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  text-transform :uppercase;
-  font-family: 'Raleway';
+  color: #ffffff;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
   letter-spacing: 0.3em;
-  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .no-letter-spacing {
@@ -98,9 +96,9 @@
 }
 
 .aligned-text {
-  display: block;
   position: relative;
   z-index: 2;
+  display: block;
 }
 
 .aligned-text_left {
@@ -111,44 +109,128 @@
   text-align: center;
 }
 
-
 .aligned-text_right {
   text-align: right;
 }
 
 .cover__description {
-  display: flex;
-  justify-content: space-between;
   position: relative;
   z-index: 3;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cover__description-text {
+  align-self: center;
+  color: #ffffff;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #FFFFFF;
   word-spacing: 18.5px;
-  align-self: center;
 }
 
 .bet-button {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
   width: 256px;
   height: 51px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
-
+  background-color: transparent;
 }
 
 .lots {
+  margin: 180px 24px 120px 24px;
   padding: 0;
+  display: flex;
+  gap:27px;
+  flex-direction: column;
+}
+
+.lots__heading {
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display:flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+  list-style: none;
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link {
+  text-decoration: none;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  padding: 48px 40px 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 596px;
+}
+
+.card__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 3;
+}
+
+.card__text {
+  position: relative;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFFFF;
+   z-index: 3;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_picture{
+  background-image: url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.lots__look-more-link {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  border-bottom: 1px solid black;
+  align-self: flex-start;
+  margin-left: 40px;
 }
 
 .about {
