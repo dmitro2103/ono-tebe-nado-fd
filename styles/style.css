@@ -296,18 +296,15 @@
 
 .footer__menu-list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
 }
 
 .adress__footer {
   justify-self: start;
   min-width: 261px;
-}
-
-.footer__menu-list {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
 }
 
 .footer__menu-link {
