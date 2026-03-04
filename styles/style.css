@@ -39,7 +39,7 @@
   height: 105px;
 }
 
-.adress {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
@@ -50,7 +50,7 @@
   line-height: 135%;
 }
 
-.adress a {
+.address a {
   text-underline-offset: 3px;
 }
 
@@ -295,7 +295,7 @@
   list-style: none;
 }
 
-.adress__footer {
+.address__footer {
   justify-self: start;
   min-width: 261px;
 }
