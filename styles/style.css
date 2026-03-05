@@ -280,9 +280,7 @@
   padding: 0 50px 82px 52px;
 }
 
-.address__footer {
-  display: flex;
-  flex-direction: column;
+.address__position {
   justify-self: start;
   min-width: 264px;
 }
