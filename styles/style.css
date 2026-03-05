@@ -22,8 +22,7 @@
 
 .header__link {
   font-size: 18px;
-  text-decoration: none;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -302,8 +301,7 @@
 
 .footer__menu-link {
   font-size: 18px;
-  text-decoration: none;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
